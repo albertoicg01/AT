@@ -24,19 +24,13 @@ public class Main {
 		
 		System.out.println("########RESULTADOS#########");
 		//Realiza operaciones y muestra resultados
-		Integer resultado=0;
 		
-		resultado=suma(number1,number2);
-		System.out.println("Suma="+resultado);
 		
-		resultado=rest(number1,number2);
-		System.out.println("Resta="+resultado);
+		suma(number1,number2);
+		rest(number1,number2);
+		multi(number1,number2);
+		div(number1,number2);
 
-		resultado=multi(number1,number2);
-		System.out.println("Resta="+resultado);
-
-		resultado=div(number1,number2);
-		System.out.println("div="+resultado);
 		
 		
 		
@@ -45,28 +39,25 @@ public class Main {
 	
 		
 	//Methods
-	public static int suma(int a, int b){
+	public static void suma(int a, int b){
 		System.out.println("\n#####SUMA##### ");
-		System.out.println(a+'+'+b);
+		System.out.println(a+"+"+b+"="+(a+b));
 		
-		Integer resultado = (a+b);
-		
-		return (a+b);
 	}
-	public static int rest(int a, int b){
+	public static void rest(int a, int b){
 		System.out.println("\n#####RESTA##### ");
-		System.out.println(a+'-'+b);
-		return (a-b);
+		System.out.println(a+"-"+b+"="+(a-b));
+		
 	}
-	public static int multi(int a, int b){
+	public static void multi(int a, int b){
 		System.out.println("\n#####MULT##### ");
-		System.out.println(a+'*'+b);
-		return (a-b);
+		System.out.println(a+"*"+b+"="+(a*b));
+		
 	}
-	public static int div(int a, int b){
+	public static void div(int a, int b){
 		System.out.println("\n#####DIV##### ");
-		System.out.println(a+'/'+b);
-		return (a/b);
+		System.out.println(a+"/"+b+"="+(a/b));
+		
 	}
 	
 	
