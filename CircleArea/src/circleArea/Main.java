@@ -21,23 +21,24 @@ public class Main {
 		
 		System.out.println("Escriba el número 2: \n");
 		Integer number2=scanner.nextInt();
+		scanner.close();
+		
 		
 		//Instanciamos objeto de clase Operaciones
 		
-		Operaciones operacion= new Operaciones();
+		Operaciones operacion= new Operaciones(5);
 		
-		System.out.println("########RESULTADOS#########");
+		System.out.println("########Operaciones básicas#########");
 		//Realiza operaciones y muestra resultados
-		
-		
-		
-		
 		
 		Operaciones.suma(number1,number2);
 		Operaciones.rest(number1,number2);
 		Operaciones.multi(number1,number2);
 		Operaciones.div(number1,number2);
 		
+		
+
+
 
 				
 	}
