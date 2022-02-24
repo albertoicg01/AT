@@ -22,45 +22,25 @@ public class Main {
 		System.out.println("Escriba el número 2: \n");
 		Integer number2=scanner.nextInt();
 		
+		//Instanciamos objeto de clase Operaciones
+		
+		Operaciones operacion= new Operaciones();
+		
 		System.out.println("########RESULTADOS#########");
 		//Realiza operaciones y muestra resultados
 		
 		
-		suma(number1,number2);
-		rest(number1,number2);
-		multi(number1,number2);
-		div(number1,number2);
+		
+		
+		
+		Operaciones.suma(number1,number2);
+		Operaciones.rest(number1,number2);
+		Operaciones.multi(number1,number2);
+		Operaciones.div(number1,number2);
+		
 
-		
-		
-		
-		
+				
 	}
-	
-		
-	//Methods
-	public static void suma(int a, int b){
-		System.out.println("\n#####SUMA##### ");
-		System.out.println(a+"+"+b+"="+(a+b));
-		
-	}
-	public static void rest(int a, int b){
-		System.out.println("\n#####RESTA##### ");
-		System.out.println(a+"-"+b+"="+(a-b));
-		
-	}
-	public static void multi(int a, int b){
-		System.out.println("\n#####MULT##### ");
-		System.out.println(a+"*"+b+"="+(a*b));
-		
-	}
-	public static void div(int a, int b){
-		System.out.println("\n#####DIV##### ");
-		System.out.println(a+"/"+b+"="+(a/b));
-		
-	}
-	
-	
 	
 	
 	
