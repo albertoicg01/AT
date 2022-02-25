@@ -46,6 +46,19 @@ public class Main {
 		Circle.complexArea(5, false);
 		Circle.complexArea(5, "Es otra cosa");
 		
+		System.out.println("****************************************Inheritance and OPP concepts****************************************");
+		
+
+		System.err.println("**********************************Circle object");
+		Circle c1 = new Circle();
+		c1.getDefaultMessage();
+		c1.getParent();
+
+		
+		System.err.println("**********************************Cube object");
+		Cube c2 = new Cube();
+		c2.getDefaultMessage();
+		c2.getParent();
 		
 		
 

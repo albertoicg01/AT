@@ -1,6 +1,6 @@
 package circleArea;
 
-public class Circle {
+public class Circle extends Figure{
 	
 //	private char name='C';
 	private float radio;
@@ -68,14 +68,14 @@ public class Circle {
 		
 		
 		if(checker) {
-			System.out.println("Sí es círculo: "+(Math.PI)*(radio*radio));
+			System.err.println("Sí es círculo: "+(Math.PI)*(radio*radio));
 			
 		}else {
 				checker=vKey.equals("No es circulo");
 				if(checker) {
-					System.out.println("No es círculo, es cuadrado: "+(radio*radio));
+					System.err.println("No es círculo, es cuadrado: "+(radio*radio));
 				}else {
-					System.out.println("No es círculo ni cuadrado");
+					System.err.println("No es círculo ni cuadrado");
 				}
 				
 				
@@ -85,12 +85,12 @@ public class Circle {
 	//This method works with a Boolean comparison
 	public static void complexArea(double radio, boolean isCircle) {
 		if (isCircle) {
-			System.out.println("Sí es círculo: "+(Math.PI)*(radio*radio));
+			System.err.println("Sí es círculo: "+(Math.PI)*(radio*radio));
 		}else {
 			if(isCircle == false) {
-				System.out.println("No es círculo, es cuadrado: "+(radio*radio));
+				System.err.println("No es círculo, es cuadrado: "+(radio*radio));
 			}else {
-				System.out.println("No es círculo ni cuadrado");
+				System.err.println("No es círculo ni cuadrado");
 			}
 		}
 		
