@@ -24,17 +24,28 @@ public class Main {
 		scanner.close();
 		
 		
-		//Instanciamos objeto de clase Operaciones
+		//Instanciamos objeto de clase Circle
 		
-		Operaciones operacion= new Operaciones(5);
+		Circle operacion= new Circle(11);
 		
 		System.out.println("########Operaciones básicas#########");
 		//Realiza operaciones y muestra resultados
 		
-		Operaciones.suma(number1,number2);
-		Operaciones.rest(number1,number2);
-		Operaciones.multi(number1,number2);
-		Operaciones.div(number1,number2);
+		Circle.suma(number1,number2);
+		Circle.rest(number1,number2);
+		Circle.multi(number1,number2);
+		Circle.div(number1,number2);
+		
+		System.out.println("****************************************ComplexArea****************************************");
+		
+		Circle.complexArea(5, "No es circulo");
+		Circle.complexArea(5, "Es circulo");
+		Circle.complexArea(5, "Es otra cosa");
+
+		Circle.complexArea(5,true);
+		Circle.complexArea(5, false);
+		Circle.complexArea(5, "Es otra cosa");
+		
 		
 		
 

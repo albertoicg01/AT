@@ -1,13 +1,13 @@
 package circleArea;
 
-public class Operaciones {
+public class Circle {
 	
 //	private char name='C';
 	private float radio;
 			
 	//----------------Constructor----------------
 	//Sin agregar valor
-	public Operaciones() {
+	public Circle() {
 		this.radio=1;
 		getArea(this.radio);
 		/*
@@ -19,7 +19,7 @@ public class Operaciones {
 	}
 	
 	//Agregando valor
-	public Operaciones(float r) {
+	public Circle(float r) {
 		this.radio=r;
 		getArea(this.radio);
 		/*
@@ -59,7 +59,7 @@ public class Operaciones {
 		
 	}
 	
-	//This method works with a String comparison
+	
 	public static void complexArea(double radio, String isCircle) {
 		
 		String vKey=isCircle;
@@ -80,10 +80,10 @@ public class Operaciones {
 				
 				
 			}
-
 	}
+	
 	//This method works with a Boolean comparison
-	public void complexArea(double radio, boolean isCircle) {
+	public static void complexArea(double radio, boolean isCircle) {
 		if (isCircle) {
 			System.out.println("Sí es círculo: "+(Math.PI)*(radio*radio));
 		}else {
@@ -95,7 +95,6 @@ public class Operaciones {
 		}
 		
 	}
-	
 	
 	
 }
