@@ -18,10 +18,12 @@ public class Ejercicios {
 //			(a – b) = c
 //			(a * b) != c
 		
-		System.err.println("1.1 (a + b) > c");
-		System.err.println("1.2 (a – b) < c");
-		System.err.println("1.3 (a – b) = c");
-		System.err.println("1.4 (a * b) != c");
+		System.out.println("1.1 (a + b) > c");
+		System.out.println("1.2 (a – b) < c");
+		System.out.println("1.3 (a – b) = c");
+		System.out.println("1.4 (a * b) != c");
+		System.out.println("Resultados en orden respectivo");
+		
 		
 		int aux=0;
 		aux=a+b;
@@ -66,10 +68,13 @@ public class Ejercicios {
 		
 		
 		System.out.println(21%7);
-		System.out.println(9/2 + 15 % 2);
-		System.out.println((3+6)/2 + 1.5);
-		System.out.println((10+38/(14-(10-12/(2*3)))));
-		System.out.println((10+38/(14-(10-12/(2*3)))));
+		System.out.println(9/2+15 % 2);
+		System.out.println((3+6)/2+1.5);
+		System.out.println(32/3 - Math.pow(2,2));
+		System.out.println(2*3+5*6/2*3);
+		System.out.println(Math.pow ( (25-7*3) ,3) / 4 * 5);
+		System.out.println(10+38/(14-(10-12/(2*3))));
+	
 		
 	}
 	public static void ejercicio3() {
