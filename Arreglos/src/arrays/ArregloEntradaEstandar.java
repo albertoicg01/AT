@@ -31,11 +31,11 @@ public class ArregloEntradaEstandar{
 		while (i<sizeOfArray) {
 			System.out.println("Ingresa elemento de array ["+i+"]: ");
 			arr[i]=scanner.nextInt();;			
-//			System.err.println("A["+i+"]="+arr[i]);
+//			System.out.println("A["+i+"]="+arr[i]);
 			i++;
 			
 		}
-		scanner.close();
+
 		//We show array in console
 		getArrayInfo(arr);
 		
@@ -43,9 +43,9 @@ public class ArregloEntradaEstandar{
 	
 	
 	public static void getArrayInfo(int[] arr) {
-		System.err.println("================================================");
-		System.err.println("El array que ingresaste es: ");
-		System.err.println("================================================");
+		System.out.println("================================================");
+		System.out.println("El array que ingresaste es: ");
+		System.out.println("================================================");
 		
 		for(int j=0;j<arr.length;j++) {
 			System.out.println("arr["+j+"]="+arr[j]);
