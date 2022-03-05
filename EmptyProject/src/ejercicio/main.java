@@ -7,7 +7,8 @@ public class main extends SesionCode{
 		System.out.println("Ejercicio de 4 de marzo de 2022");
 //		Scanner scanner = new Scanner(System.in);
 		
-		sesionCode();
+		//sesionCode();
+		sesionCode2();
 		
 		
 	}
