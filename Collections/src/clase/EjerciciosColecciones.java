@@ -132,28 +132,7 @@ public class EjerciciosColecciones {
 
 
 	}
-	public static void claseMarioStream() {
-		
-		List<String> cursos =Arrays.asList("Java","PHP",".NET","Spring");
-		System.out.println("\n Lista de cursos");
-		
-		for(String curso:cursos) {
-			System.out.println(curso);
-			
-			
-			if(curso.toLowerCase().replace(" ","").equals("springboot"));
-		}
-		
-		
-		System.out.println("\nLista de cursos con stream");
-		Stream<String> cursos2 = Stream.of("Java","PHP",".NET");
-		cursos2.forEach(System.out::println);
-		
-		System.out.println("\nBusquedas");
-		Stream<String> cursos3=Stream.of("Java","PHP",".NET","SpringBoot");
-		cursos3.filter(curso->curso.toLowerCase().replace(" ", "").contains("java").forEach(System.out::println));
-		
-	}
+
 	
 	
 }

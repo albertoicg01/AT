@@ -4,8 +4,9 @@ public class Main {
 public static void main(String[] args) {
 	EjerciciosColecciones ejercicio= new EjerciciosColecciones();
 	
-//	ejercicio.listaPaises();
-	ejercicio.claseMarioStream();
+	ejercicio.listaPaises();
+
+	
 	
 	//Usando iterador
 //	while(iterator.hasNext()) {
