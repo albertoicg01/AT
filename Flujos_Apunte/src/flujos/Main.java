@@ -6,6 +6,15 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 public class Main {
 	public static void main(String[] args) {
+		
+		/*
+		 * Streams in Java | Simplilearn Java Tutorial
+		 * https://www.simplilearn.com/tutorials/java-tutorial/streams-in-java
+		 * 
+		 * Uso básico de Java 8: Stream y Lambdas. - Adictos al trabajo
+		 * https://www.adictosaltrabajo.com/2016/06/23/uso-basico-de-java-8-stream-y-lambdas/
+		 * 
+		 * */
 		List<String> cursos = Arrays.asList("Java","PHP",".Net","Spring boot","Git","Linux");
 		
 		int maxLength = 0;
