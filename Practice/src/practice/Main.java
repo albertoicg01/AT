@@ -1,6 +1,7 @@
 package practice;
 
 import java.util.Scanner;
+import java.util.Calendar;
 //Date is a library about to be deleted by new Java Versions
 import java.util.Date;
 import java.text.SimpleDateFormat;
@@ -36,41 +37,62 @@ public class Main {
 		}
 		
 	
+		Boolean flag=false;
 		
-		if(option==1) {
-			getBornDate(date,dateFormat);
-		}else if(option==2){
-			System.out.println("2 was chosen");
-		}else {
-			System.out.println("Option not valid");
+		while(flag==false){
+			if(option==1) {
+				getBornDate();
+				flag=true;
+			}else if(option==2){
+				System.out.println("2 was chosen");
+				flag=true;
+			}else if(option==3){
+				System.out.println("Good Bye");
+				flag=true;
+				
+			}else {
+				System.out.println("Option not valid");
+			}
 		}
 			
 	}
 	
 	
 	
-	public static void getBornDate(Date currentDate, SimpleDateFormat dateFormat)  {
+	public static void getBornDate()  {
 		//You type your birthday and it gives the date you born 
+		
 		Scanner scanner=new Scanner(System.in);	
 		System.out.println("------------------------------------");		
 		System.out.println("Type his/her birthday's ");
+		System.out.println("------------------------------------");		
 		
+		//We get how old her/he is		
+		System.out.println("Type how old his/her is (type only a number) ");
+		Integer auxiliarAge=scanner.nextInt();
+		
+		//We get month------>
 		System.out.println("Type his/her month");
 		String auxiliarMonth=scanner.next();
-		
+		//We get Day------>
 		System.out.println("Type his/her day");
 		String auxiliarDay=scanner.next();
+		//We get Current Date------>
+		Calendar cal =Calendar.getInstance();
 		
-		System.out.println("We recieved MONTH: "+auxiliarMonth);
-		System.out.println("We recieved DAY: "+auxiliarDay);
+		//We check info provided------>
+		String auxiliar=cal.getWeekYear()+"-"+auxiliarMonth+"-"+auxiliarDay;
 		
+//		System.out.println("Dada recollected: "+auxiliar);
 		
-		//We get current year
-		System.out.println("TODAY IS: "+dateFormat.format(currentDate));
+		//Result
+		//---------------------------------------------------------------
 		
-		//We know the 
-//		System.out.println("Your birthday is on "+birthdayDate);
+		//This magic line solves everything
+		cal.add(Calendar.YEAR, -auxiliarAge);
 		
+		System.out.println("He/She was born on "+cal.getWeekYear()+"-"+
+						   auxiliarMonth+"-"+auxiliarDay);
 		
 		
 		System.out.println("------------------------------------");
@@ -81,4 +103,8 @@ public class Main {
 		//Type your born's date and this method shows your born's date
 		
 	}
+	
+	    
+	
+		
 }
