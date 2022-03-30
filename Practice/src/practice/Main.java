@@ -13,6 +13,7 @@ import java.text.SimpleDateFormat;
  *DESC 	 :This program works with two methods. These
  *		  methods are dedicated to learn and get practice 
  *		  about Data and Calendar classes
+ *REFERENCES : https://www.geeksforgeeks.org/find-the-duration-of-difference-between-two-dates-in-java/
  *===============================================================		
  * */
 public class Main {
