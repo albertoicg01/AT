@@ -17,7 +17,7 @@ Here I describe what is kept on <b>/src</b> folder. Please feel free to clone th
             <u>(Given by Mario on his class 2022-04-01)</u>
         <li>
             <em>/hilosThreadClass</em>
-            <br> This is the way we work with Threads using <b>Thread</b> class. <u>(Given by Mario on his class 2022-04-01)</u>
+            <br> This is the way we work with Threads using <b>Thread</b> class. <mark>(Given by Mario on his class 2022-04-01)</mark>
         </li>
     </ul>
 </div>
