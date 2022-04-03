@@ -18,7 +18,7 @@ Some links were given by Mario and some others were added by the author.
         <a href="https://www.w3schools.com/java/java_threads.asp">W3 Schools - Java Threads</a>
     </li>
     <li>
-        <a href="https://www.w3schools.com/java/java_threads.asp">Departamento de informática de Universidad de Valladolid - Hilos en Java</a>
+        <a href="https://www.infor.uva.es/~fdiaz/sd/doc/hilos">Departamento de informática de Universidad de Valladolid - Hilos en Java</a>
     </li>
     <li>
         <a href="https://jarroba.com/multitarea-e-hilos-en-java-con-ejemplos-thread-runnable/">Jarroba - Multitarea e Hilos</a>
