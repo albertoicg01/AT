@@ -7,8 +7,19 @@ activity is detect differences between these two ways of working with threads.
 ### Author 
 Alberto Israel Cruz Galvan
 
-### Content
-It will be added 
+## Content
+Here I describe what is kept on <b>/src</b> folder. Please feel free to clone this project and check this out on your computer.
+
+<ul>
+    <li>
+        hilosInterface folder
+        <br> This is the way we work with Threads using <b>Runnable</b> interface. (Given by Mario on his class 2022-04-01)
+    </li>
+    <li>
+        hilosThreadClass
+        <br> This is the way we work with Threads using <b>Thread</b> class. (Given by Mario on his class 2022-04-01)
+    </li>
+</ul>
 
 ### Useful links about threads
 Some links were given by Mario and some others were added by the author.
