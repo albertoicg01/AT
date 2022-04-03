@@ -8,7 +8,7 @@ This project contains some programs about Threads topics. I will be working with
 activity is detect differences between these two ways of working with threads.
 
 ## Content
-Here I describe what is kept on <b>/src</b> folder. Please feel free to clone this project and check this out on your computer. I worked with <em>packages</em> in this project in order to separate topics. The task was requested on 2022-04-01 is in <b>/activityDone</b> package on this same project.
+Here I describe what is kept on <b>/src</b> folder. Please feel free to clone this project and check this out on your computer. I worked with <em>packages</em> in this project in order to separate topics. The task requested on 2022-04-01 is in <b>/activityDone</b> package on this same project.
 <div>
     <ul>
         <li>
