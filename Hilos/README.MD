@@ -9,3 +9,15 @@ Alberto Israel Cruz Galvan
 
 ### Content
 It will be added 
+
+### Useful links about threads
+
+<div>
+    <li>
+        <a href="https://www.w3schools.com/java/java_threads.asp">W3 Schools - Java Threads<a>
+    </li>
+    <li>
+        <a href="https://www.w3schools.com/java/java_threads.asp">Departamento de informática de Universidad de Valladolid - Hilos en Java<a>
+    </li>
+    
+</div>
