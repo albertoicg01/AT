@@ -13,10 +13,11 @@ Here I describe what is kept on <b>/src</b> folder. Please feel free to clone th
     <ul>
         <li>
             <em>/hilosInterface</em>
-            <br> This is the way we work with Threads using <b>Runnable</b> interface. (Given by Mario on his class 2022-04-01)
+            <br> This is the way we work with Threads using <b>Runnable</b> interface. 
+            <u>(Given by Mario on his class 2022-04-01)</u>
         <li>
             <em>/hilosThreadClass</em>
-            <br> This is the way we work with Threads using <b>Thread</b> class. (Given by Mario on his class 2022-04-01)
+            <br> This is the way we work with Threads using <b>Thread</b> class. <u>(Given by Mario on his class 2022-04-01)</u>
         </li>
     </ul>
 </div>
