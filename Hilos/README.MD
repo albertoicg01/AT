@@ -21,7 +21,7 @@ Here I describe what is kept on <b>/src</b> folder. Please feel free to clone th
         </li>
         <li>
             <em>/activityDone</em>
-            <br>Solution for Mario's request<ins>(This solution was coded by Alberto Cruz)</ins>
+            <br>Solution for Mario's request<ins> (This solution was coded by Alberto Cruz)</ins>
         </li>
     </ul>
 </div>
