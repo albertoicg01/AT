@@ -2,11 +2,13 @@ package activityDone;
 
 public class Main {
 	public static void main(String[] args) {
-		UsingThread usingThread = new UsingThread(10000);
-		UsingThread usingThread2 = new UsingThread(10000/2);
-		UsingThread usingThread3= new UsingThread(10000/3);
-		UsingThread usingThread4 = new UsingThread(10000*2);
-		UsingThread usingThread5 = new UsingThread(10000/5);
+		
+		
+		UsingThread usingThread = new UsingThread(secondsToMiliseconds(15));
+		UsingThread usingThread2 = new UsingThread(secondsToMiliseconds(10));
+		UsingThread usingThread3= new UsingThread(secondsToMiliseconds(5));
+		UsingThread usingThread4 = new UsingThread(secondsToMiliseconds(3));
+		UsingThread usingThread5 = new UsingThread(secondsToMiliseconds(2));
 		
 		usingThread.setName("Hilo1");
 		usingThread2.setName("Hilo2");
@@ -20,8 +22,13 @@ public class Main {
 		usingThread3.start();
 		usingThread4.start();
 		usingThread5.start();
-		
-		
+				
+	}
+	
+	public static int secondsToMiliseconds(int seconds) {
+		int miliseconds=1000;
+		miliseconds*=seconds;
+		return miliseconds;
 		
 	}
 }
