@@ -1,27 +1,32 @@
 package activityDone;
-import java.io.*;
+import java.util.Random;
+
 
 public class Main {
 	
 	
 	public static void main(String[] args) {
 		
+		Random rand=new Random();
+		UsingThread usingThread = new UsingThread(secondsToMiliseconds(rand.nextInt(20)));
+		UsingThread usingThread2 = new UsingThread(secondsToMiliseconds(rand.nextInt(20)));
+		UsingThread usingThread3= new UsingThread(secondsToMiliseconds(rand.nextInt(20)));
+		UsingThread usingThread4 = new UsingThread(secondsToMiliseconds(rand.nextInt(20)));
+		UsingThread usingThread5 = new UsingThread(secondsToMiliseconds(rand.nextInt(20)));
 		
-		UsingThread usingThread = new UsingThread(secondsToMiliseconds(20));
-		
-		UsingThread usingThread2 = new UsingThread(secondsToMiliseconds(15));
-		UsingThread usingThread3= new UsingThread(secondsToMiliseconds(10));
-		UsingThread usingThread4 = new UsingThread(secondsToMiliseconds(5));
-		UsingThread usingThread5 = new UsingThread(secondsToMiliseconds(1));
-		
-
-		
+//		UsingThread usingThread = new UsingThread(secondsToMiliseconds(20));
+//		UsingThread usingThread2 = new UsingThread(secondsToMiliseconds(15));
+//		UsingThread usingThread3= new UsingThread(secondsToMiliseconds(10));
+//		UsingThread usingThread4 = new UsingThread(secondsToMiliseconds(5));
+//		UsingThread usingThread5 = new UsingThread(secondsToMiliseconds(1));
 		
 		usingThread.start();
 		usingThread2.start();
 		usingThread3.start();
 		usingThread4.start();
 		usingThread5.start();
+		
+		
 		
 	}
 	
