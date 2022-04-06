@@ -51,6 +51,10 @@ Here I describe what is kept on <b>/src</b> folder. Please feel free to clone th
             <em>/hilosThreadClass</em>
             <br> This is the way we work with Threads using <b>Thread</b> class. <ins>(Given by Mario on his class 2022-04-01)</ins>
         </li>
+        <li>
+            <em>/runnableInterface</em>
+            <br> This is another way to work with Threads using <b>Runnable interface</b>. <ins>(Given by Mario on his class 2022-04-01)</ins>
+        </li>
     </ul>
 </div>
 
