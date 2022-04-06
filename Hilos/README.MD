@@ -4,8 +4,40 @@
 Alberto Israel Cruz Galvan
 
 ## About
-This project contains some programs about Threads topics. I will be working with Runnable interface and Thread class. One important target of this
-activity is detect differences between these two ways of working with threads.
+This project contains some programs about Threads topics. I will be working with <b>Runnable interface</b> and <b>Thread class</b>. One important objective of this activity is detect differences between these two ways of working with threads.
+
+### Genaral features about these tools
+- They are all cointainend in <b>java.lang</b> package
+## Stack
+- Java 17.0.1
+- eclipse IDE for Java Developers - 2021-12
+
+## Results conclusions and observations
+Through develop this little java project I was able to compare differences between working with <b>Thread class</b> and implementing <b>Runnable interface</b>.
+
+<div>
+    <table>
+  <tr>
+    <th>Technology</th>
+    <th>Advantages</th>
+    <th>Disadvantages</th>
+  </tr>
+  <tr>
+    <td>Extend Class</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Runnable Interface</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+</div>
+
+
+Every time we work with Extending <b>Thread class</b>, we are not able to extend another class, so this is not as useful because we lose all inheritance properties. On the other hand, working with <b>Runnable</b>
+
 
 ## Content
 Here I describe what is kept on <b>/src</b> folder. Please feel free to clone this project and check this out on your computer. I worked with <em>packages</em> in this project in order to separate topics. The task requested on 2022-04-01 is in <b>/activityDone</b> package on this same project.
@@ -42,5 +74,9 @@ Some links were given by Mario and some others were added by Alberto Cruz.
     <li>
         <a href="http://dis.um.es/~bmoros/Tutorial/parte10/cap10-2.html">Departamento de informática y de sistemas (DIS) -  Creación y control de hilos</a>
     </li>
+    <li>
+        <a href="https://www.geeksforgeeks.org/implement-runnable-vs-extend-thread-in-java/?ref=gcse">Geeks for geeks - Implement Runnable vs Extend Thread in java</a>
+    </li>
+
     
 </div>
