@@ -28,7 +28,7 @@ Through develop this little java project I was able to compare differences betwe
     <th>Disadvantages</th>
   </tr>
   <tr>
-    <td>Extend Class</td>
+    <td>Extend Thread Class</td>
     <td>It is easier to implement <br> There are some methods coded ready to use sucha setName and getName</td>
     <td>We miss Inheritance benefits</td>
   </tr>
