@@ -30,7 +30,7 @@ Through develop this little java project I was able to compare differences betwe
   <tr>
     <td>Runnable Interface</td>
     <td>We can save space for using Inheritance in future</td>
-    <td>Mexico</td>
+    <td>It is not as easy to use</td>
   </tr>
 </table>
 </div>
