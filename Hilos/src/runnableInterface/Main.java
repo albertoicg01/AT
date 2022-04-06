@@ -12,7 +12,7 @@ public class Main {
 	
 	static long baseTime = System.currentTimeMillis();
 	
-	static void showElapsedTime(String message) {
+	public static void showElapsedTime(String message) {
 		long elapsedTime = System.currentTimeMillis() -baseTime;
 		System.out.println(message + " at " + (elapsedTime/1000.0) + " seconds");
 	}
