@@ -1,7 +1,7 @@
 # Threads
 
 ## Author 
-Alberto Israel Cruz Galvan
+Alberto Israel Cruz Galvan - intern32
 
 ## Attention!
 This repository <ins>does not contain any private information of Agile Thought company</ins>. It only contains my results and excercises. 
