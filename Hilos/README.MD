@@ -5,9 +5,8 @@ Alberto Israel Cruz Galvan
 
 ## Attention!
 This repository <ins>does not contain any private information of Agile Thought company</ins>. It only contains my results and excercises. 
-<div>
-    <a hfref="https://youtu.be/K4473tH7XG0">Click here for watching my YouTube's explanation of this activity.</a>
-</div>
+- Copy this link for watching my YouTube's explanation: 
+<b>https://youtu.be/K4473tH7XG0</b>
 
 ## About
 This project contains some programs about Threads topics. I will be working with <b>Runnable interface</b> and <b>Thread class</b>. One important objective of this activity is detect differences between these two ways of working with threads.
