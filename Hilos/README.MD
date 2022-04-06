@@ -44,16 +44,16 @@ Here I describe what is kept on <b>/src</b> folder. Please feel free to clone th
 <div>
     <ul>
         <li>
+            <em>/activityDone</em>
+            <br>Solution for Mario's request<ins> (This solution was coded by Alberto Cruz)</ins>
+        </li>
+        <li>
             <em>/hilosInterface</em>
             <br> This is the way we work with Threads using <b>Runnable</b> interface. 
             <ins>(Given by Mario on his class 2022-04-01)</ins>
         <li>
             <em>/hilosThreadClass</em>
             <br> This is the way we work with Threads using <b>Thread</b> class. <ins>(Given by Mario on his class 2022-04-01)</ins>
-        </li>
-        <li>
-            <em>/activityDone</em>
-            <br>Solution for Mario's request<ins> (This solution was coded by Alberto Cruz)</ins>
         </li>
     </ul>
 </div>
