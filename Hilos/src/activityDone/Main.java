@@ -1,24 +1,34 @@
 package activityDone;
 import java.util.Random;
 
-
 public class Main {
 	
 	
 	public static void main(String[] args) {
 		
 		Random rand=new Random();
-		UsingThread usingThread = new UsingThread(secondsToMiliseconds(rand.nextInt(20)));
-		UsingThread usingThread2 = new UsingThread(secondsToMiliseconds(rand.nextInt(20)));
-		UsingThread usingThread3= new UsingThread(secondsToMiliseconds(rand.nextInt(20)));
-		UsingThread usingThread4 = new UsingThread(secondsToMiliseconds(rand.nextInt(20)));
-		UsingThread usingThread5 = new UsingThread(secondsToMiliseconds(rand.nextInt(20)));
 		
-//		UsingThread usingThread = new UsingThread(secondsToMiliseconds(20));
-//		UsingThread usingThread2 = new UsingThread(secondsToMiliseconds(15));
-//		UsingThread usingThread3= new UsingThread(secondsToMiliseconds(10));
-//		UsingThread usingThread4 = new UsingThread(secondsToMiliseconds(5));
-//		UsingThread usingThread5 = new UsingThread(secondsToMiliseconds(1));
+		UsingThread usingThread = new UsingThread(secondsToMiliseconds(rand.nextInt(11)),"Hilo1_ThreadClass");
+		UsingThread usingThread2 = new UsingThread(secondsToMiliseconds(rand.nextInt(11)),"Hilo2_ThreadClass");
+		UsingThread usingThread3= new UsingThread(secondsToMiliseconds(rand.nextInt(11)),"Hilo3_ThreadClass");
+		UsingThread usingThread4 = new UsingThread(secondsToMiliseconds(rand.nextInt(11)),"Hilo4_ThreadClass");
+		UsingThread usingThread5 = new UsingThread(secondsToMiliseconds(rand.nextInt(11)),"Hilo5_ThreadClass");
+		
+		
+		Thread thread_interface_1 =new Thread(new RunnableThread(secondsToMiliseconds(rand.nextInt(11)),"thread_interface_1"));
+		Thread thread_interface_2 =new Thread(new RunnableThread(secondsToMiliseconds(rand.nextInt(11)),"thread_interface_2"));
+		Thread thread_interface_3 =new Thread(new RunnableThread(secondsToMiliseconds(rand.nextInt(11)),"thread_interface_3"));
+		Thread thread_interface_4 =new Thread(new RunnableThread(secondsToMiliseconds(rand.nextInt(11)),"thread_interface_4"));
+		Thread thread_interface_5 =new Thread(new RunnableThread(secondsToMiliseconds(rand.nextInt(11)),"thread_interface_5"));
+
+		
+		thread_interface_1.start();
+		thread_interface_2.start();
+		thread_interface_3.start();
+		thread_interface_4.start();
+		thread_interface_5.start();
+
+
 		
 		usingThread.start();
 		usingThread2.start();
@@ -29,8 +39,6 @@ public class Main {
 		
 		
 	}
-	
-	
 	//-----------------------------------------------------------------------
 	//Here we calculate time
 	static long baseTime = System.currentTimeMillis();
@@ -42,9 +50,9 @@ public class Main {
     }
 	//-----------------------------------------------------------------------
     
-	public static int secondsToMiliseconds(int seconds) {
-		int miliseconds=1000;
-		miliseconds*=seconds;
+	public static long secondsToMiliseconds(int seconds) {
+		long miliseconds=1000;
+		miliseconds*=(long)seconds;
 		return miliseconds;
 		
 	}
@@ -57,30 +65,3 @@ public class Main {
 	}
 }
 
-
-class UsingThread extends Thread{
-	int timeSleep;
-	
-	//Constructor
-	public UsingThread(int timeSleep){
-		//This pause is needed
-		Main.showElapsedTime(getName()+" is created");
-		
-		this.timeSleep=timeSleep;		
-	}
-	
-	@Override
-	public void run() {
-		
-		try {
-			//sleep(10000/2);
-			sleep(this.timeSleep);
-			
-			Main.showElapsedTime(getName()+" finishes");
-		}catch(Exception e) {
-			e.getMessage();
-		}
-		
-
-	}
-}
